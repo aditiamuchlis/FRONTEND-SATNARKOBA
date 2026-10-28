@@ -1,0 +1,18 @@
+@use 'styles/tokens';
+@use 'styles/typography';
+@use 'styles/ionic-overrides';
+
+/* Core Ionic CSS imports */
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/display.css';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-app);
+}

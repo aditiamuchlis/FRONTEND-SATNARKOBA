@@ -1,0 +1,105 @@
+// ============================================================================
+// Design Tokens - Institutional Kepolisian / Satresnarkoba (SIPINAR)
+// ============================================================================
+
+:root {
+  // Primary Institutional Navy
+  --color-navy-900: #102a43;
+  --color-navy-800: #1b365d;
+  --color-navy-700: #243b53;
+  --color-navy-600: #334e68;
+  --color-navy-100: #d9e2ec;
+  --color-navy-50: #f0f4f8;
+
+  // Muted Gold Accent (Polri / Institutional Accent)
+  --color-gold-600: #9c721c;
+  --color-gold-500: #b78a28;
+  --color-gold-100: #faf0d7;
+
+  // Neutral Grays (Light Mode Default)
+  --color-bg-app: #f4f6f8;
+  --color-bg-surface: #ffffff;
+  --color-bg-subtle: #f8fafc;
+  --color-border: #d9e2ec;
+  --color-border-strong: #bcccdc;
+  --color-text-primary: #102a43;
+  --color-text-secondary: #486581;
+  --color-text-muted: #627d98;
+
+  // Status Colors (Strict mapping per alur-aplikasi.md)
+  // BARU -> Kuning
+  --status-baru-bg: #fefcbf;
+  --status-baru-text: #744210;
+  --status-baru-border: #ecc94b;
+
+  // DIDISPOSISI -> Biru-abu
+  --status-disposisi-bg: #e6eff8;
+  --status-disposisi-text: #1b365d;
+  --status-disposisi-border: #9fb3c8;
+
+  // SELESAI_BENAR -> Hijau
+  --status-benar-bg: #def7ec;
+  --status-benar-text: #1c4532;
+  --status-benar-border: #68d391;
+
+  // SELESAI_TIDAK_BENAR -> Merah
+  --status-tidak-benar-bg: #fde8e8;
+  --status-tidak-benar-text: #742a2a;
+  --status-tidak-benar-border: #f56565;
+
+  // Semantic Feedback
+  --color-danger: #9b2c2c;
+  --color-danger-bg: #fff5f5;
+  --color-warning: #975a16;
+  --color-warning-bg: #fffff0;
+  --color-success: #22543d;
+  --color-success-bg: #f0fff4;
+
+  // Spacing Scale (multiples of 4px)
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  // Radius (strictly small: 4-6px)
+  --radius-sm: 4px;
+  --radius-md: 6px;
+
+  // Touch Target Minimum
+  --touch-target-min: 44px;
+
+  // Ionic CSS Variable Mapping
+  --ion-color-primary: #102a43;
+  --ion-color-primary-rgb: 16, 42, 67;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0e253b;
+  --ion-color-primary-tint: #283f56;
+
+  --ion-color-secondary: #b78a28;
+  --ion-color-secondary-rgb: 183, 138, 40;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #a17923;
+  --ion-color-secondary-tint: #be963e;
+
+  --ion-color-success: #22543d;
+  --ion-color-warning: #975a16;
+  --ion-color-danger: #9b2c2c;
+  --ion-color-medium: #486581;
+  --ion-color-light: #f0f4f8;
+
+  --ion-background-color: var(--color-bg-app);
+  --ion-text-color: var(--color-text-primary);
+  --ion-border-color: var(--color-border);
+  --ion-item-background: var(--color-bg-surface);
+  --ion-toolbar-background: var(--color-navy-900);
+  --ion-toolbar-color: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-tab-bar-border-color: var(--color-border);
+  --ion-tab-bar-color: var(--color-text-secondary);
+  --ion-tab-bar-color-selected: var(--color-navy-900);
+}

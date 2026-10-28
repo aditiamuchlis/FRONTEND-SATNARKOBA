@@ -1,0 +1,70 @@
+// ============================================================================
+// Typography - Single Sans Family + Tabular Figures for NRP / Report Numbers
+// ============================================================================
+
+:root {
+  --font-sans: 'IBM Plex Sans', 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Consolas', 'SFMono-Regular', monospace;
+  --ion-font-family: var(--font-sans);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-app);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  margin: 0 0 var(--space-2) 0;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.tabular-nums,
+.nrp-code,
+.report-number,
+.stat-value,
+td.col-num,
+time {
+  font-variant-numeric: tabular-nums;
+}
+
+.mono-code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+}
+
+.text-muted {
+  color: var(--color-text-secondary);
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-secondary);
+}
